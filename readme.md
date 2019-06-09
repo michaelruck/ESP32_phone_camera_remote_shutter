@@ -16,8 +16,8 @@ Due to its simplicity, there is no wiring diagram or schematic. Just have a look
 - Double sided adhesive tape.
 
 ### Ressources:
-- Bluetooth HID Profile, Page 20: https://www.silabs.com/documents/login/application-notes/AN993.pdf
 - USB HID Usage Tables, Page 53: https://www.usb.org/sites/default/files/documents/hut1_12v2.pdf
+- Bluetooth HID Profile, Page 20: https://www.silabs.com/documents/login/application-notes/AN993.pdf
 - Bluetooth.org Specifications https://www.bluetooth.org/en-us/specification/adopted-specifications
 
 Author: Michael Ruck, 9. Juny 2019
