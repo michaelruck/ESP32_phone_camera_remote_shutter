@@ -3,14 +3,17 @@
 
 The only thing it does is described in the header. Although there are a view tweakable parameters in settings.h.
 Tested with Open Camera on Android 8.0.
-It possible works with Iphone either.
+It possible works with IPhone either.
 
-Ressources:
+### Wiring:
+Due to its simplicity, there is no wiring diagram or schematic. Just have a look at [this picture](https://github.com/michaelruck/ESP32_phone_camera_remote_shutter/blob/master/images/BLE_Shutter_button.jpg).
+
+### Ressources:
 - Bluetooth HID Profile, Page 20: https://www.silabs.com/documents/login/application-notes/AN993.pdf
 - USB HID Usage Tables, Page 53: https://www.usb.org/sites/default/files/documents/hut1_12v2.pdf
 - Bluetooth.org Specifications https://www.bluetooth.org/en-us/specification/adopted-specifications
 
-Hardware:
+### Hardware:
 - ESP32 mini, or any other ESP32.
 - Battery compartment 4.5V (3xAAA).
 - Tactile switch button.
