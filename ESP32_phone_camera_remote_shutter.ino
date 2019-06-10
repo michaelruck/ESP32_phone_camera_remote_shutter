@@ -172,10 +172,12 @@ void loop() {
 
     delay(1000);
     digitalWrite(LED, LOW);
+    attachInterrupt(digitalPinToInterrupt(__BUTTONPIN), pushButton, FALLING);
   }
   delay(50);
 }
 
 IRAM_ATTR void pushButton() {
+  detachInterrupt(digitalPinToInterrupt(__BUTTONPIN));
   btnFlag = true;
 }
