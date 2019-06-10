@@ -1,7 +1,9 @@
 /*
   Smartphone camera remote shutter trigger button
 
-  The only thing it does is described in the header. Although there are a view tweakable parameters in settings.h.
+  The main thing it does is described in the header. If you press the button, the shutter is triggered to take an image. 
+  With the slide switch you can adapt to the different keycodes Android and IOS use. 
+  All necessary parameters are in settings.h.
   Tested with Open Camera on Android 8.0.
   It possible works with Iphone either.
 
@@ -146,6 +148,9 @@ void setup() {
   pinMode(__BUTTONPIN, INPUT);
   attachInterrupt(digitalPinToInterrupt(__BUTTONPIN), pushButton, FALLING);
 
+  // The Switch
+  pinMode(__SWITCHPIN, INPUT);
+
   // LED
   pinMode(LED, OUTPUT);
   digitalWrite(LED, LOW);
@@ -160,8 +165,10 @@ void loop() {
     digitalWrite(LED, HIGH);
     Serial.println("Cheese...");
 
+    uint8_t send_key = digitalRead(__SWITCHPIN) ? __SEND_KEY_ANDROID : __SEND_KEY_IOS;
+    
     //Key press
-    uint8_t msg[] = {0x0, 0x0, __SEND_KEY, 0x0, 0x0, 0x0, 0x0, 0x0};
+    uint8_t msg[] = {0x0, 0x0, send_key, 0x0, 0x0, 0x0, 0x0, 0x0};
     input->setValue(msg, sizeof(msg));
     input->notify();
 
