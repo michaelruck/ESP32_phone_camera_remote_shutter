@@ -3,9 +3,9 @@
 
   The main thing it does is described in the header. If you press the button, the shutter is triggered to take an image. 
   With the slide switch you can adapt to the different keycodes Android and IOS use. 
-  All necessary parameters are in settings.h.
-  Tested with Open Camera on Android 8.0.
-  It possible works with Iphone either.
+  All necessary parameters are in settings.h. 
+  Tested with Open Camera on Android 8.0. 
+  It possible works with Iphone either. 
 
   Ressources:
   Bluetooth HID Profile, Page 20: https://www.silabs.com/documents/login/application-notes/AN993.pdf
@@ -16,7 +16,8 @@
   ESP32 mini, or any other ESP32.
   Battery compartment 4.5V (3xAAA).
   Tactile switch button.
-  Pull up resistor 10k to 50k will work.
+  Slide switch.
+  2 Pull up resistors. 10k to 50k will work.
   Double sided adhesive tape.
 
   Author: Michael Ruck, 9. Juny 2019
