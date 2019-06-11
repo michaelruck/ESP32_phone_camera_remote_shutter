@@ -6,7 +6,7 @@ Tested with Open Camera on Android 8.0.
 It possible works with IPhone either.
 
 ### Wiring:
-Due to its simplicity, there is no wiring diagram or schematic. Just have a look at [this picture](https://github.com/michaelruck/ESP32_phone_camera_remote_shutter/blob/master/images/BLE_Shutter_button.jpg).
+Due to its simplicity, there is no wiring diagram or schematic. Just have a look at [this picture](https://github.com/michaelruck/ESP32_phone_camera_remote_shutter/blob/master/images/BLE_Shutter_button_v1.0.jpg).
 
 ### Hardware:
 - ESP32 mini, or any other ESP32.
