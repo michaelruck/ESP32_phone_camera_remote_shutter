@@ -20,6 +20,6 @@ Due to its simplicity, there is no wiring diagram or schematic. Just have a look
 - Bluetooth HID Profile, Page 20: https://www.silabs.com/documents/login/application-notes/AN993.pdf
 - Bluetooth.org Specifications https://www.bluetooth.org/en-us/specification/adopted-specifications
 
-Author: Michael Ruck, 9. Juny 2019
+Author: Michael Ruck, 9. June 2019
 
 License: GNU Lesser General Public License version 3 (https://opensource.org/licenses/LGPL-3.0)
