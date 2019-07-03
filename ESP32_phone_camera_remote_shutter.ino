@@ -25,11 +25,7 @@
 
 */
 #include <BLEDevice.h>
-#include <BLEUtils.h>
-#include <BLEServer.h>
-#include "BLE2902.h"
 #include "BLEHIDDevice.h"
-#include "HIDTypes.h"
 #include "./settings.h"
 
 #define LED 2
